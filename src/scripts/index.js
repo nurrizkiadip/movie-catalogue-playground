@@ -21,3 +21,5 @@ window.addEventListener('load', () => {
   swRegister();
   WebSocketInitiator.init(CONFIG.WEB_SOCKET_SERVER);
 });
+
+console.log(process.env.API_KEY_TMDB);
