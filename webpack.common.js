@@ -35,7 +35,7 @@ module.exports = {
       safe: true,
       allowEmptyValues: true,
       silent: false,
-      // defaults: false,
+      defaults: false,
     }),
     new HtmlWebpackPlugin({
       filename: 'index.html',

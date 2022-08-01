@@ -40,7 +40,7 @@ module.exports = function (config) {
           safe: true,
           allowEmptyValues: true,
           silent: false,
-          // defaults: false,
+          defaults: false,
         }),
       ],
       mode: 'development',
